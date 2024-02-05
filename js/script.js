@@ -111,3 +111,58 @@
 //     console.log("-------------------------------------------------------------------------");
 
 // }
+
+//Lesson2 
+//Task1
+let arr = ["bir", "iki", "uc", "dord", "bes", "alti"]
+//1. "alti" arraydan cixart yerine "yeddi" elave et
+// arr.splice(5,1,"yeddi")
+// arr.pop()
+// arr.push("yeddi")
+// console.log(arr);
+//2. "bir" arraydan cixart yerine "sifir" elave et
+// arr.splice(0,1,"sifir")
+// arr.shift();
+// arr.unshift("sifir")
+// console.log(arr);
+// //3. "uc" ve "dord" cixart yerine "on bes" elave et
+// arr.splice(2,2,"on bes")
+// console.log(arr);
+let cumle = "There are many different people in the world";
+// //1. Her bir sozu ayir
+// console.log(cumle.split(" "));
+// //2.Her bir herfin kicik herfle yazdir
+// console.log(cumle.toLocaleLowerCase());
+// //3. Her bir herfin boyuk herfle yazdir
+// console.log(cumle.toLocaleUpperCase());
+// //4. People sozunu animal sozu ile deyisdir
+// console.log(cumle.replace("people", "animal"));
+//Task3 
+//Verilmis arrayde en boyuk ededi tapan funksiya yazacaqsiz
+let numArr = [3, 15, 18, 30, 16];
+// let max = numArr[0];
+// function maxNum(params) {
+//     for (let i = 1; i < params.length; i++) {
+//         if (params[i] > max) {
+//             max = params[i]
+//         }
+//     }
+//     console.log(max);
+// }
+// maxNum(numArr);
+
+//Task4
+//Verilmis arrayde cut ededleri toplayan funksiya yazacaqsiz
+// function ovenNumSum(params) {
+//     let sum=params.filter(num=>num%2==0).reduce((toplam,num)=>toplam+num,0)
+//     console.log(sum);    
+// }
+// ovenNumSum(numArr)
+
+//Task5
+//Verilmis array icinde 3 ve 5e bolunen ededlerin hasilini tapan funksiya yazacaqsiz
+// function hasil(params) {
+//     let hasil=params.filter(num=>num%3==0 && num%5==0).reduce((hasil,num)=>hasil*num,1)
+//     console.log(hasil);    
+// }
+// hasil(numArr)
